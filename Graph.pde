@@ -24,7 +24,7 @@ abstract class Graph extends Pane {
     float textSize = height / 16;
     textSize(textSize);
     textAlign(CENTER, CENTER);
-    text(this.getGraphName(), offsetX, offsetY, offsetX + width / 2, offsetY + textSize*2);
+    text(this.getGraphName(), offsetX, offsetY, width, textSize * 2);
   }
   
   public void setGraphName(String name) {
